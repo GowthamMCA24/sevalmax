@@ -1,0 +1,441 @@
+*{
+    margin:0;
+    padding: 0;
+}
+header {
+    background-color: black;
+    height: 50px;
+}
+header a{
+    color:white;
+    text-decoration: none;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 80px;
+}
+img{
+    position: absolute;
+    top: 5px;
+    left: 10px;
+}
+.nav-bar{
+    background-color: aqua;
+}
+.nav-bar ul li{
+    display: inline-block;
+    text-indent: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    list-style: none;
+    font-size:23px;
+}  
+.nav-bar ul li a{
+    text-decoration: none;
+    color:black;
+}
+.nav-bar ul li a:hover{
+    background-color: blueviolet;
+    padding: 10px 10px 10px 10px;
+    border-radius: 14px;
+}
+.image{
+       width:100%;
+       margin-top:112px;
+       margin-left:-10px;
+}          
+
+main h2{
+    color:red;
+    margin-left: 500px;
+    margin-top:550px;
+}
+main p{
+    margin-left:200px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.one{
+   margin-top:45px;
+    margin-left:200px;
+}
+.two{
+   margin-top: -240px;
+    margin-left:600px;
+}
+.three{
+    margin-top:-320px;
+    margin-left:1000px;
+}
+.text h2{
+    color:red;
+    margin-left: 500px;
+    margin-top:220px;
+}
+.text p{
+    margin-left:300px;
+    font-size: 18px;
+    margin-top: 35px;
+
+}
+.image1{
+    margin-top:1220px;
+    width:100%;
+    margin-left:-10px;
+}
+.image2{
+   margin-top:2050px;
+    width:200px;
+    margin-left:20px;
+}
+.four{
+    margin-top:930px;
+    margin-left:30px;
+}
+
+.line1{
+    background-color:aqua;
+    width:95px;
+    height:5px;
+    margin-left:382px;
+    margin-top:-115px;
+}
+.ourservices{
+    text-decoration: none;
+    margin-left:380px;
+    margin-top:0px;
+    line-height: 30px;
+}
+.ourservices a{
+    text-decoration: none;
+}
+.line2{
+    background-color:rgb(248, 152, 27);
+    width:75px;
+    height:5px;
+    margin-left:682px;
+    margin-top:-150px;
+}
+.company{
+    margin-left:680px;
+    margin-top:0px;
+    line-height: 30px;
+}
+.company a{
+    text-decoration: none;
+}
+.line3{
+    background-color:rgb(184, 250, 29);
+    width:75px;
+    height:5px;
+    margin-left:880px;
+    margin-top:-155px;
+}
+.resources{
+    margin-left:880px;
+    margin-top:0px;
+    line-height: 30px;
+}
+.resources a{
+    text-decoration: none;
+}
+.line4{
+    background-color:rgb(250, 12, 24);
+    width:75px;
+    height:5px;
+    margin-left:1150px;
+    margin-top:-155px;
+}
+.followus{
+    margin-left:1150px;
+    margin-top:0px;
+    line-height: 30px;
+}
+.whatsapp {
+    margin-top:2105px;
+    margin-left:1100px;
+}
+.insta {
+    margin-top:2105px;
+    margin-left:1170px;
+}
+.fb {
+    margin-top:2105px;
+    margin-left:1240px;
+}
+.call {
+    margin-top:2165px;
+    margin-left:1170px;
+}
+.linkedin {
+    margin-top:2225px;
+    margin-left:1100px;
+}
+.utube {
+    margin-top:2225px;
+    margin-left:1170px;
+}
+.twitter {
+    margin-top:2225px;
+    margin-left:1240px;
+}
+
+@media screen and (max-width:1019px){
+    header{
+        margin-right: px;
+    }
+  .nav-bar ul li{
+     display:block;
+     
+     
+  }
+  .image {
+    margin:0px;
+    width:100%;
+    position: static;
+  }
+  main h2{
+    text-align: center;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  main p{
+     margin-left:0px;
+     margin-top: 0px;
+     margin-left: 10px;
+  }
+  .one{
+     margin-top:20px;
+     margin-left:10px;
+   }
+   .two{
+    margin-top: 20px;
+     margin-left: 10px;
+   }
+   .three{
+     margin-top:20px;
+     margin-left:10px;
+   }
+   .text h2{
+     margin-left:0px;
+     margin-top:10px;
+   }
+   .text p{
+     margin-left: 10px;
+     margin-top:10px;
+   }
+   .image1{
+     margin-top: 0px;
+     width:100%;
+     margin-left:-15px;
+     position: static;
+     
+   }
+   .image2{
+   margin-top:0px;
+   margin-left: 0px;
+   position: static;
+  }
+  .four{
+     margin-top:0px;
+     margin-left: 10px;
+  }
+ .line1{
+ 
+     margin-left:15px;
+     margin-top:105px;
+ }
+ .ourservices{
+     margin-left: 15px;
+     margin-top:15px;
+ }
+ .line2{
+     margin-left: 15px;
+     margin-top:40px;
+ }
+ .company{
+     margin-left: 15px;
+     margin-top:15px;
+ }
+ .line3{
+     margin-left: 15px;
+     margin-top:40px;
+ }
+ .resources{
+     margin-left: 15px;
+     margin-top:15px;
+ }
+ .line4{
+     margin-left: 15px;
+     margin-top:40px;
+ }
+ .followus{
+     margin-left: 15px;
+     margin-top:15px;
+ }
+ 
+ .whatsapp{
+        margin-left:0px;
+        margin-top:10px;
+        position: static;
+ }
+ .insta{
+     margin-left:20px;
+     margin-top:10px;
+     position: static;
+
+ }
+ .fb{
+     margin-left:20px;
+     margin-top:10px;
+     position: static;
+ }
+ .call {
+     margin-left:60px;
+     margin-top:30px;
+     position: static;
+ }
+ .linkedin{
+     margin-left:0px;
+     margin-top:30px;
+     bottom:10px;
+     position: static;
+ }
+ .utube{
+     margin-left:20px;
+     margin-top:30px;
+     bottom:10px;
+     position: static;
+ }
+ .twitter{
+     margin-left:20px;
+     margin-top:30px;
+     bottom:10px;
+     position: static;
+ }
+ }
+ @media screen and (min-width:1019px)
+ {
+ header{
+    width:100%;
+ }
+ header a{
+ }
+ .nav-bar{
+    width:100%;
+ }
+ .nav-bar ul li{
+    display: inline-block;
+    text-indent: 110px;
+ }
+ .image{
+    width: 100%;
+    position: static;
+    margin-top: 0px;
+    margin-left: 0px;
+ }
+ main h2{
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 100px;
+ }
+ main p{
+    text-align: center;
+ }
+ .one{
+    margin-left: 150px;
+ }
+ .two{
+    margin-left: 470px;
+ }
+ .three{
+    margin-left:810px ;
+ }
+ .image1{
+    position: static;
+    width: 100%;
+    margin-top: 0px;
+ }
+ .text h2{
+    margin-left: 100px;
+ }
+ .text p{
+    margin-left: 150px;
+ }
+ .image2{
+    margin-left: 0px;
+    position: static;
+    margin-top: 0px;
+ }
+ .four{
+    margin-left: 0px;
+    margin-top: 0px;
+ }
+ .line1{
+    margin-top: -100px;
+    margin-left: 290px;
+ }
+ .ourservices{
+    margin-left: 290px ;
+ }
+ .line2{
+    margin-top: -150px ;
+    margin-left: 530px;
+ }
+ .company{
+    margin-left:530px ;
+ }
+ .line3{
+    margin-top: -155px;
+    margin-left: 680px;
+ }
+ .resources{
+    margin-top: 0px;
+    margin-left: 680px;
+ }
+ .line4{
+    margin-top: -150px;
+    margin-left:890px;
+
+ }
+ .followus{
+    margin-top: 0px;
+    margin-left: 890px;
+ }
+ .whatsapp{
+    margin-top: 0px;
+    margin-left:890px;
+    position: static;
+ }
+ .insta{
+    margin-left: 0px;
+    margin-top: 0px;
+    position: static;
+ }
+ .fb{
+    margin-left:0px;
+    margin-top: 0px;
+    position: static;
+ }
+ .call{
+    margin-left: 940px;
+    position: static;
+    margin-top: 0px;
+ }
+ .linkedin{
+    margin-left:890px;
+    margin-top: 0px;
+    position: static;
+ }
+ .utube{
+    margin-left:0px;
+    margin-top: 0px;
+    position: static;
+ }
+ .twitter{
+    margin-left:0px;
+    margin-top: 0px;
+    position: static;
+ }
+
+ }
+ 
