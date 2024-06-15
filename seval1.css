@@ -179,7 +179,7 @@ main p{
     margin-left:1240px;
 }
 
-@media screen and (max-width:804px){
+@media screen and (max-width:701px){
     header{
         margin-right: px;
     }
@@ -313,7 +313,7 @@ main p{
      position: static;
  }
  }
- @media screen and (min-width:804px)
+ @media screen and (min-width:702px)
  {
  header{
     width:100%;
