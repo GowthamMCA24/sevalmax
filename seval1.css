@@ -313,7 +313,7 @@ main p{
      position: static;
  }
  }
- @media screen and (min-width:702px)
+ @media screen and (max-width:1024px)
  {
  header{
     width:100%;
